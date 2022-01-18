@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         AWS_ACCOUNT_ID="876133504412"
-        AWS_DEFAULT_REGION="us-east-2" 
+        AWS_DEFAULT_REGION="us-west-2" 
 	CLUSTER_NAME="default"
 	SERVICE_NAME="custom-demo-service"
 	TASK_DEFINITION_NAME="first-run-task-definition"
